@@ -1,0 +1,8 @@
+[webservers]
+ec2-34-229-248-68.compute-1.amazonaws.com
+
+
+[webservers:vars]
+ansible_ssh_user=ubuntu
+github_user=lemmah
+app_name=flask_assessment
